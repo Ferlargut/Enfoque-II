@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    
+}
+header{
+    height: 20%;  
+}
+#navegador {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;    
+    height: inherit;
+    background-color: RGB(102, 51, 153);
+}
+.logo-gato{
+        height: inherit;
+        width: 23%;
+}
+.navegandores{    
+    width: 50%;    
+}
+.navega-ligas{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+}
+
+.ligas{    
+    border: 2px solid white;
+    border-radius: 35px 35px 35px 35px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+    color: white;
+    font-size: 1.5em;
+    margin: 5%;
+    padding: 2%;
+    height: 48%;
+    text-align: center;
+}
+.imagen{
+      background-image: url(../assest/img/leon.jpg);
+}
