@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    
+}
+header{
+    height: 20%;  
+}
+#navegador {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;    
+    height: inherit;
+    background-color:#97a00d;
+}
+.logo-gato{
+        height: inherit;
+        width: 23%;
+}
+.navegandores{    
+    width: 45%;    
+}
+.navega-ligas{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+.contenedor-liga{
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    width:23%;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 35% 35% 35% 35%; 
+    height: 50%;
+    margin: 5%;    
+}
+
+.ligas{    
+    font-size: 1.5vw;
+    color: black;    
+    margin: 5%;     
+    width: 100%;
+    text-align: center;
+}
+.imagen{
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;    
+    height: 600px;
+          
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    position: absolute;
+    align-self: center;
+    font-size:  7vw;
+}
+.seccion{
+    display: flex;
+    flex-direction: column;
+    ALIGN-ITEMS: center;
+    justify-content: center;
+}
+.segundo-titulo{
+     font-size:  5vw;    
+}
+.contenedor-articulo{
+    width: 50%;
+    margin: 2%;
+    font-size: 1.5vw;
+}
+.primer-articulo{
+    display: flex;
+    flex-direction: row;    
+}
+.segundo-articulo{
+    display: flex;
+    flex-direction: row-reverse;    
+}
+.videos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+iframe{
+    width: 70%;
+    height: 50%
+}
+.formulario-texto{   
+    margin-top: 2%;
+    height : 500px;
+    margin : 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    position: relative;
+    width: 66%;
+    height: 98%;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(../assest/img/background.jpg);
+}
+#formulario-titulo {
+  position : absolute;
+  left : 415px;
+  top  : 185px; 
+  font : 2vw 'Pacifico', cursive;
+}
+
+#from {
+  position: absolute;
+  left : 398px;
+  top  : 235px;
+}
+
+#reply {
+  position: absolute;
+  left : 390px;
+  top  : 285px;
+}
+
+#message {
+  position: absolute;
+  left : 20px;
+  top  : 70px;
+}
+
+input, textarea {
+  font: 'Pacifico', cursive;
+  border  : none;
+  padding : 0 10px;
+  margin  : 0;
+  width   : 240px;
+
+  background: none;
+}
+input:focus, textarea:focus {
+  background   : rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline      : none;
+}
+input {
+    height: 3.5vw; /* for IE */
+    vertical-align: middle; /* This is optional but it makes legacy IEs look better */
+}
+textarea {
+  display : block;
+
+  padding : 10px;
+  margin  : 10px 0 0 -10px;
+  width   : 340px;
+  height  : 360px;
+
+  resize  : none;
+  overflow: auto;
+}
+button {
+  position     : absolute;
+  left         : 440px;
+  top          : 360px;
+  padding      : 5px;
+  border       : 2px solid #333;
+  border-radius: 5px;
+  background   : none;
+
+  cursor       : pointer;
+
+-webkit-transform: rotate(-1.5deg);
+   -moz-transform: rotate(-1.5deg);
+    -ms-transform: rotate(-1.5deg);
+     -o-transform: rotate(-1.5deg);
+        transform: rotate(-1.5deg);
+}
+
+button:after {
+  content: " >>>";
+}
+
+.enviar:hover{
+  outline   : none;
+  background: #000;
+  color   : #FFF;
+}
+
+button:focus {
+  outline   : none;
+  background: #000;
+  color   : #FFF;
+}
+footer{
+    background: #97a00d;
+    width: 100%;    
+    height: 30px;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
